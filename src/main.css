@@ -19,7 +19,7 @@ body {
 }
 .nav-bar a {
   color: #FFFFFF;
-  font-decoration: none;
+  text-decoration: none;
   cursor: pointer;
 }
 h1 {
