@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+}
+
+.motif-desc {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
