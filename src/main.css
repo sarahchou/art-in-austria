@@ -12,7 +12,7 @@ body {
 }
 .nav-bar {
   background-color: #303030;
-  height: 4rem;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;

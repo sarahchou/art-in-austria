@@ -5,8 +5,8 @@
   * Control & indicator mixin
 */
 .carousel {
-    height: 300px;
-    width: 400px;
+    width: 100vw;
+    height: 90vh;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -201,9 +201,6 @@ body {
 }
 .carousel-container {
     display: inline-block;
-}
-.my-carousel {
-    margin: 30px;
 }
 .carousel__slide {
     overflow: hidden;
