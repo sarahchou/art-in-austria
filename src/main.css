@@ -12,15 +12,16 @@ body {
 }
 .nav-bar {
   background-color: #303030;
-  height: 4rem;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.nav-bar a {
+.nav-bar a, .nav-bar b {
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
+  font-size: 18px;
 }
 h1 {
   font-size: 32px;
