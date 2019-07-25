@@ -186,6 +186,9 @@
     overflow-y: auto;
     opacity: 0;
 }
+.carousel__slide h1 {
+    text-shadow: 2px 2px 1px #000000;
+}
 /**
   * Theming
 */
