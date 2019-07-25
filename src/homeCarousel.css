@@ -76,6 +76,8 @@
     height: 30px;
     width: 30px;
     margin-top: -15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     top: 50%;
     position: absolute;
     display: block;
