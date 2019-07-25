@@ -17,11 +17,11 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.nav-bar a {
+.nav-bar a, .nav-bar b {
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
 }
 h1 {
   font-size: 32px;
