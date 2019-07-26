@@ -62,10 +62,9 @@ h6 {
   max-height: 400px;
   position: relative;
   /*Instead of height we will use padding*/
-  padding-top: 400px; /*That helps bring the labels down*/
-
-  margin-top: 10px;
-  margin-bottom: 90px;
+  padding-top: 363px; /*That helps bring the labels down*/
+  margin-top: 60px;
+  margin-bottom: 163px;
 margin-left: auto;
 margin-right: auto;
 
@@ -76,10 +75,11 @@ margin-right: auto;
 .slider img {
   max-width: inherit;
   max-height: inherit;
+
   width: auto;
   height: auto;
   margin:auto;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 .header {
@@ -103,13 +103,27 @@ margin-right: auto;
   padding: 10px 15% 1px 15%;
 }
 
+caption {
+  width: 550px;
+  height: 20%;
+  /* background: rgba(0, 0, 0, 50); */
+  font-size: 11px;
+  text-decoration-color: : #FFFFFF;
+}
 
 /*Last thing remaining is to add transitions*/
 .slider>img{
   position: absolute;
-  left: 0; top: 0;
+  left: 0; bottom: 0;
   transition: all 0.5s;
 }
+
+.slider>caption{
+  position: absolute;
+  left: 0; bottom: 0;
+  transition: all 0.5s;
+}
+
 
 .slider input[name='slide_switch'] {
   display: none;
@@ -119,9 +133,9 @@ margin-right: auto;
   /*Lets add some spacing for the thumbnails*/
   position: relative;
   overflow: hidden;
-  height: 70px;
-  width: 70px;
-  margin: 15px 0 0 15px;
+  height: 55px;
+  width: 55px;
+  margin: 12px 0 0 10px;
   border: 3px solid #999;
   float: left;
   cursor: pointer;
@@ -129,13 +143,6 @@ margin-right: auto;
 
   /*Default style = low opacity*/
   opacity: 0.6;
-}
-
-.square {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
 }
 
 .slider label img.portrait {
