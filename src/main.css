@@ -1,6 +1,5 @@
 * {
-  font-size: 100%;
-  font-family: Avenir;
+  font-family: Avenir, sans-serif;
   line-height: 1.4;
   font-size: 16px;
 }
@@ -64,10 +63,7 @@ h6 {
   position: relative;
   /*Instead of height we will use padding*/
   padding-top: 363px; /*That helps bring the labels down*/
-  margin-top: 60px;
-  margin-bottom: 163px;
-margin-left: auto;
-margin-right: auto;
+  margin: 60px auto 163px;
 
   /*Lets add a shadow*/
 
@@ -109,7 +105,7 @@ caption {
   height: 20%;
   /* background: rgba(0, 0, 0, 50); */
   font-size: 11px;
-  text-decoration-color: : #FFFFFF;
+  text-decoration-color: #FFFFFF;
 }
 
 /*Last thing remaining is to add transitions*/
@@ -191,7 +187,6 @@ On click the images will be displayed at normal size to complete the effect
   transform: scale(1);
 }
 
-
 .aside-1 {
   background: gold;
 }
@@ -205,14 +200,9 @@ On click the images will be displayed at normal size to complete the effect
 }
 
 @media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
+  .main    { flex: 3 0; }
   .aside-1 { order: 1; }
   .main    { order: 2; }
   .aside-2 { order: 3; }
   .footer  { order: 4; }
 }
-
-body {
-  padding: 2em;
-}
-
