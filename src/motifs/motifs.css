@@ -7,6 +7,15 @@
     margin-bottom: 0px;
 }
 
+.motif-desc a {
+    text-decoration: none;
+    color: black;
+}
+
+.motif-desc .motif-name {
+    font-size: 24px;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
