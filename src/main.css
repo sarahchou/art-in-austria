@@ -206,3 +206,7 @@ On click the images will be displayed at normal size to complete the effect
   .aside-2 { order: 3; }
   .footer  { order: 4; }
 }
+
+.header {
+    text-align: center;
+}
