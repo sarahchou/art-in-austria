@@ -1,0 +1,12 @@
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.image {
+    margin: auto;
+}
