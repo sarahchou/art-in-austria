@@ -2,22 +2,17 @@
     text-align: center;
 }
 
-.motif-desc {
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.motif-desc a {
-    text-decoration: none;
-    color: black;
-}
-
-.motif-name {
-    font-size: 24px;
+.video {
+  margin: auto;
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
+
+h3, h5, p {
+    margin: 10px;
+}
+
+
