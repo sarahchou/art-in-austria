@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    margin: 10px;
 }
 
 .content {
@@ -9,4 +10,8 @@
 
 .image {
     margin: auto;
+}
+
+h1 {
+    margin: 10px;
 }
