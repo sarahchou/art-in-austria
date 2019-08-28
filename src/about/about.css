@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.image {
+    margin: auto;
+}
+
+h1 {
+    margin: 10px;
+}
