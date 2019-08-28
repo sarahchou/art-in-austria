@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+}
+
+.video {
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+h3, h5, p {
+    margin: 10px;
+}
+
+
